@@ -5,7 +5,8 @@
     --background-color: grey;
     --title-background: rgba(49, 139, 180, 0.548);
     --navbg: rgb(31, 31, 31);
-    --light: #fff;
+    --cardtext: rgba(49, 139, 180, 0.548);
+
     --hover: lightblue;
     }
     body { 
@@ -66,7 +67,7 @@ color: var(--title-background) ;
   border: 6px;
 }
 
-.hero-banner .bannertext {
+.banner .bannertext {
 white-space: nowrap;
 }
 main {
@@ -76,11 +77,12 @@ main {
 
 
 .sectitle {
-    background-color: aqua;
+   
 width: 5rem;
 text-align: end;
 margin-top: 1rem;
-margin-left: -6rem
+margin-left: -6rem;
+line-height: 1;
 
 
 }
@@ -90,7 +92,37 @@ margin-left: -6rem
 border-left: 3px solid black;
     margin-right: 200rem;
     width: 100%;
-    padding: 15px;
+    padding-left: 15px;
     margin-top: -4rem
 }
 
+#worksec {
+
+margin-top: 3.2rem;
+border-left: 3px solid black;
+width: 100%;
+}
+
+.container {
+
+    margin-left: .9rem;
+
+    margin-top: -2rem;
+}
+
+.card {
+
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.card-img-top  {
+
+    height: 12rem;
+    
+}
+
+.card-body, .list-group-item  {
+
+    background-color: var(--title-background);
+}
