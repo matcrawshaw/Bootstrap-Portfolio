@@ -3,7 +3,7 @@
 
 :root {
     --background-color: grey;
-    --title-background: rgba(49, 139, 180, 0.548);
+    --title-background: rgba(49, 139, 180, 0.842);
     --navbg: rgb(31, 31, 31);
     --cardtext: rgba(49, 139, 180, 0.548);
 
@@ -65,6 +65,7 @@ color: var(--title-background) ;
   display: inline-block;
   float: right;
   border: 6px;
+  background-opacity: 
 }
 
 .banner .bannertext {
@@ -101,19 +102,27 @@ border-left: 3px solid black;
 margin-top: 3.2rem;
 border-left: 3px solid black;
 width: 100%;
+
+
 }
 
 .container {
 
     margin-left: .9rem;
-
+width: 100%;
     margin-top: -2rem;
-}
 
+
+}
+.row{
+
+    width: 100%;
+}
 .card {
 
     margin-right: 2rem;
     margin-bottom: 2rem;
+   
 }
 
 .card-img-top  {
@@ -124,5 +133,7 @@ width: 100%;
 
 .card-body, .list-group-item  {
 
-    background-color: var(--title-background);
+    background-color: var(--navbg);
+    color: var(--title-background)
 }
+
