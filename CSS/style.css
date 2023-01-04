@@ -91,8 +91,8 @@ line-height: 1;
 .aboutsection {
     display: flex;
 border-left: 3px solid black;
-    margin-right: 200rem;
-    width: 100%;
+ 
+    width: 97%;
     padding-left: 15px;
     margin-top: -4rem
 }
@@ -108,19 +108,15 @@ width: 100%;
 
 .container {
 
-    margin-left: .9rem;
-width: 100%;
+   
+
     margin-top: -2rem;
 
 
 }
-.row{
 
-    width: 100%;
-}
 .card {
 
-    margin-right: 2rem;
     margin-bottom: 2rem;
    
 }
